@@ -1,0 +1,482 @@
+<sequence>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="mm1_x"/>
+        <param name="pos" value="-4"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="mm2_x"/>
+        <param name="pos" value="-4.61"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="mm1_y"/>
+        <param name="pos" value="-2.8"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="mm2_y"/>
+        <param name="pos" value="-4.44"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="mono_baff_v_offset"/>
+        <param name="pos" value="-0.8"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="mono_baff_h_offset"/>
+        <param name="pos" value="-0.2"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="a_m4_bpm_v"/>
+        <param name="pos" value="137.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="a_slit1_v_gap"/>
+        <param name="pos" value="800.0"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="a_slit_h_gap"/>
+        <param name="pos" value="530.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_PHASE"/>
+        <param name="pos" value="0.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="mono_baff_v_gap"/>
+        <param name="pos" value="22"/>
+      </repeat>
+      <repeat nr="1">        <param name="motor" value="mono_baff_h_gap"/>
+        <param name="pos" value="21.8"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="43.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1815.1"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="155.9"/>
+    <param name="final_pos" value="161.3"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="44.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1813.5"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="165.5"/>
+    <param name="final_pos" value="171.3"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="45.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1813.5"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="175.6"/>
+    <param name="final_pos" value="181.8"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="46.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1812.2"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="186.1"/>
+    <param name="final_pos" value="192.7"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="47.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.9"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="197.0"/>
+    <param name="final_pos" value="203.9"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="48.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1810.3"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="208.3"/>
+    <param name="final_pos" value="215.6"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="49.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1810.3"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="219.9"/>
+    <param name="final_pos" value="227.7"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="50.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="231.9"/>
+    <param name="final_pos" value="240.1"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="51.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="244.1"/>
+    <param name="final_pos" value="252.6"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="52.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="256.5"/>
+    <param name="final_pos" value="265.5"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="53.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="269.3"/>
+    <param name="final_pos" value="278.7"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="54.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="282.3"/>
+    <param name="final_pos" value="292.2"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="55.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="295.2"/>
+    <param name="final_pos" value="305.6"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="56.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="308.6"/>
+    <param name="final_pos" value="319.4"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="57.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="321.7"/>
+    <param name="final_pos" value="333.0"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="58.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="335.2"/>
+    <param name="final_pos" value="347.0"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="59.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="348.6"/>
+    <param name="final_pos" value="360.8"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="60.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="361.8"/>
+    <param name="final_pos" value="374.5"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="61.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="375.0"/>
+    <param name="final_pos" value="388.1"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="EPU_R1_110_GAP"/>
+        <param name="pos" value="62.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="mv">
+    <paramrepeat name="motor_pos_list">
+      <repeat nr="1">        <param name="motor" value="m1_pitch"/>
+        <param name="pos" value="-1811.0"/>
+      </repeat>
+    </paramrepeat>
+  </macro>
+  <macro name="ascan">
+    <param name="motor" value="mono_energy"/>
+    <param name="start_pos" value="388.0"/>
+    <param name="final_pos" value="401.7"/>
+    <param name="nr_interv" value="60"/>
+    <param name="integ_time" value="0.5"/>
+  </macro>
+</sequence>

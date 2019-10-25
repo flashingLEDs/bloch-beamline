@@ -1,0 +1,35 @@
+[SCANCONFIGS]
+ScanItem	FixedEnergy
+ScanOption	
+Initial	230.25
+Final	224.25
+Points	4
+Interval	-2
+InitialSerial	1
+Dimension	3
+VariablePoints	0
+
+[DESCRIPTIONS]
+1	:	-
+
+[SUFFICES]
+1	:	dta
+
+[FILES]
+230.25	:	f-1
+228.25	:	f-2
+226.25	:	f-3
+224.25	:	f-4
+
+[ITEMS]
+1	:	x
+2	:	y
+3	:	Flux Density
+4	:	PL(s1/s0)
+5	:	PC(s3/s0)
+6	:	PL45(s2/s0)
+7	:	1-|PL|
+
+[SCANDATANAME]
+Name	/home/craig/beamline/SPECTRA_calculations/f
+

@@ -1,0 +1,90 @@
+[SCANCONFIGS]
+ScanItem	SlitWidth
+ScanOption	
+Initial	0.25
+Final	15
+Points	60
+Interval	0.25
+InitialSerial	1
+Dimension	2
+VariablePoints	0
+
+[DESCRIPTIONS]
+1	:	-
+
+[SUFFICES]
+1	:	dc0
+
+[FILES]
+0.25	:	50mm-1
+0.5	:	50mm-2
+0.75	:	50mm-3
+1	:	50mm-4
+1.25	:	50mm-5
+1.5	:	50mm-6
+1.75	:	50mm-7
+2	:	50mm-8
+2.25	:	50mm-9
+2.5	:	50mm-10
+2.75	:	50mm-11
+3	:	50mm-12
+3.25	:	50mm-13
+3.5	:	50mm-14
+3.75	:	50mm-15
+4	:	50mm-16
+4.25	:	50mm-17
+4.5	:	50mm-18
+4.75	:	50mm-19
+5	:	50mm-20
+5.25	:	50mm-21
+5.5	:	50mm-22
+5.75	:	50mm-23
+6	:	50mm-24
+6.25	:	50mm-25
+6.5	:	50mm-26
+6.75	:	50mm-27
+7	:	50mm-28
+7.25	:	50mm-29
+7.5	:	50mm-30
+7.75	:	50mm-31
+8	:	50mm-32
+8.25	:	50mm-33
+8.5	:	50mm-34
+8.75	:	50mm-35
+9	:	50mm-36
+9.25	:	50mm-37
+9.5	:	50mm-38
+9.75	:	50mm-39
+10	:	50mm-40
+10.25	:	50mm-41
+10.5	:	50mm-42
+10.75	:	50mm-43
+11	:	50mm-44
+11.25	:	50mm-45
+11.5	:	50mm-46
+11.75	:	50mm-47
+12	:	50mm-48
+12.25	:	50mm-49
+12.5	:	50mm-50
+12.75	:	50mm-51
+13	:	50mm-52
+13.25	:	50mm-53
+13.5	:	50mm-54
+13.75	:	50mm-55
+14	:	50mm-56
+14.25	:	50mm-57
+14.5	:	50mm-58
+14.75	:	50mm-59
+15	:	50mm-60
+
+[ITEMS]
+1	:	Energy
+2	:	Flux
+3	:	PL(s1/s0)
+4	:	PC(s3/s0)
+5	:	PL45(s2/s0)
+6	:	1-|PL|
+
+[SCANDATANAME]
+Name	/home/craig/bloch_beamline/SPECTRA_calculations/acceptance/50mm
+

@@ -1,0 +1,92 @@
+[SCANCONFIGS]
+ScanItem	FixedEnergy
+ScanOption	
+Initial	40
+Final	46
+Points	61
+Interval	0.1
+InitialSerial	1
+Dimension	3
+VariablePoints	0
+
+[DESCRIPTIONS]
+1	:	-
+
+[SUFFICES]
+1	:	dta
+
+[FILES]
+40	:	CPOL_30mm-1
+40.1	:	CPOL_30mm-2
+40.2	:	CPOL_30mm-3
+40.3	:	CPOL_30mm-4
+40.4	:	CPOL_30mm-5
+40.5	:	CPOL_30mm-6
+40.6	:	CPOL_30mm-7
+40.7	:	CPOL_30mm-8
+40.8	:	CPOL_30mm-9
+40.9	:	CPOL_30mm-10
+41	:	CPOL_30mm-11
+41.1	:	CPOL_30mm-12
+41.2	:	CPOL_30mm-13
+41.3	:	CPOL_30mm-14
+41.4	:	CPOL_30mm-15
+41.5	:	CPOL_30mm-16
+41.6	:	CPOL_30mm-17
+41.7	:	CPOL_30mm-18
+41.8	:	CPOL_30mm-19
+41.9	:	CPOL_30mm-20
+42	:	CPOL_30mm-21
+42.1	:	CPOL_30mm-22
+42.2	:	CPOL_30mm-23
+42.3	:	CPOL_30mm-24
+42.4	:	CPOL_30mm-25
+42.5	:	CPOL_30mm-26
+42.6	:	CPOL_30mm-27
+42.7	:	CPOL_30mm-28
+42.8	:	CPOL_30mm-29
+42.9	:	CPOL_30mm-30
+43	:	CPOL_30mm-31
+43.1	:	CPOL_30mm-32
+43.2	:	CPOL_30mm-33
+43.3	:	CPOL_30mm-34
+43.4	:	CPOL_30mm-35
+43.5	:	CPOL_30mm-36
+43.6	:	CPOL_30mm-37
+43.7	:	CPOL_30mm-38
+43.8	:	CPOL_30mm-39
+43.9	:	CPOL_30mm-40
+44	:	CPOL_30mm-41
+44.1	:	CPOL_30mm-42
+44.2	:	CPOL_30mm-43
+44.3	:	CPOL_30mm-44
+44.4	:	CPOL_30mm-45
+44.5	:	CPOL_30mm-46
+44.6	:	CPOL_30mm-47
+44.7	:	CPOL_30mm-48
+44.8	:	CPOL_30mm-49
+44.9	:	CPOL_30mm-50
+45	:	CPOL_30mm-51
+45.1	:	CPOL_30mm-52
+45.2	:	CPOL_30mm-53
+45.3	:	CPOL_30mm-54
+45.4	:	CPOL_30mm-55
+45.5	:	CPOL_30mm-56
+45.6	:	CPOL_30mm-57
+45.7	:	CPOL_30mm-58
+45.8	:	CPOL_30mm-59
+45.9	:	CPOL_30mm-60
+46	:	CPOL_30mm-61
+
+[ITEMS]
+1	:	x
+2	:	y
+3	:	Flux Density
+4	:	PL(s1/s0)
+5	:	PC(s3/s0)
+6	:	PL45(s2/s0)
+7	:	1-|PL|
+
+[SCANDATANAME]
+Name	/home/craig/bloch_beamline/SPECTRA_calculations/ReferenceCalculations/CPOL_30mm_spotProfile_vs_energy/CPOL_30mm
+
